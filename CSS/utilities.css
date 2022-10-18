@@ -1,0 +1,31 @@
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;   /* vertically center*/
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.btn-secondary{
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-secondary:hover{
+    background-color: var(--primary);
+    color: var(--dark);
+}
+
+.flex-1{
+    flex:1;
+
+}
+
+.justify-center{
+    justify-content: center;
+}
